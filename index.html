@@ -4,18 +4,25 @@
 	<title>Drawing Board in p5.js</title>
 	<nmeta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="styleesheet" href="css/drawing-board.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+	<div class="drawing-board">
+		<h1>Practice Drawing Board</h1>
+	</div>
 
+	<div class="side-controls">
+		<button onclick="noLoop();">Stop Drawing</button> 
+		<button onclick="loop();">Draw</button>
+		<button onclick="remove();">Clear Board</button>
+	</div>
 
 
 
 
 	<!-- ext scripts -->
 	<script src="js/p5.min.js"></script>
-	<script type="text/javascript" src="js/scribble.js"></script>
 	<script src="js/sketch.js"></script>
 </body>
 </html>

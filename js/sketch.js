@@ -1,13 +1,16 @@
+// use these variables in createCanvas() parameters to use your
+// enter screen real estate to create drawing board.
 var windowHeight;
 var windowWidth;
-
-windowWidth = window.innerWidth;
+windowWidth = window.innerWidth; 								
 windowHeight = window.innerHeigh;
 
 
 
+
+
 function setup() {
-	createCanvas(windowWidth,1080);  // 1080 monitor (fullscreen drawing)
+	createCanvas(1920,1080);
 }
 
 
@@ -22,4 +25,5 @@ function draw() {
 
 	ellipse(mouseX, mouseY, 80, 80);
 }
+
 
